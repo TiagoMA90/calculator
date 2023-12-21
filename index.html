@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input id="screen" readonly>
+        <div id="key-buttons">
+            <button onclick="displays('+')" class="operators">+</button>
+            <button onclick="displays('7')">7</button>
+            <button onclick="displays('8')">8</button>
+            <button onclick="displays('9')">9</button>
+            <button onclick="displays('-')" class="operators">-</button>
+            <button onclick="displays('4')">4</button>
+            <button onclick="displays('5')">5</button>
+            <button onclick="displays('6')">6</button>
+            <button onclick="displays('*')" class="operators">*</button>
+            <button onclick="displays('1')">1</button>
+            <button onclick="displays('2')">2</button>
+            <button onclick="displays('3')">3</button>
+            <button onclick="displays('/')" class="operators">/</button>
+            <button onclick="displays('0')">0</button>
+            <button onclick="displays('.')" class="decimals">.</button>
+            <button onclick="calculate()" class="equals">=</button>
+            <button onclick="clears()" class="clears">C</button>
+
+<!-- ... (the rest of your HTML code) ... -->
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
