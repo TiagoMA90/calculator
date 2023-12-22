@@ -9,6 +9,8 @@
 </head>
 <body>
     <div class="calculator">
+        <br>
+        <span class="author">Developed by Tiago Moura <a class="author" href="https://github.com/TiagoMA90" aria-label="Link to developers Github" target="_blank"><i class="fa-brands fa-github author"></i></a></span>
         <input id="screen" readonly>
         <div id="key-buttons">
             <button onclick="displays('+')" class="operators">+</button>
@@ -19,20 +21,18 @@
             <button onclick="displays('4')">4</button>
             <button onclick="displays('5')">5</button>
             <button onclick="displays('6')">6</button>
-            <button onclick="displays('*')" class="operators">*</button>
+            <button onclick="displays('*')" class="operators">x</button>
             <button onclick="displays('1')">1</button>
             <button onclick="displays('2')">2</button>
             <button onclick="displays('3')">3</button>
             <button onclick="displays('/')" class="operators">/</button>
             <button onclick="displays('0')">0</button>
             <button onclick="displays('.')" class="decimals">.</button>
-            <button onclick="calculate()" class="equals">=</button>
             <button onclick="clears()" class="clears">C</button>
-
-<!-- ... (the rest of your HTML code) ... -->
-
+            <button onclick="calculate()" class="equals">=</button>
         </div>
     </div>
     <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/9a3068bd82.js" crossorigin="anonymous"></script>
 </body>
 </html>

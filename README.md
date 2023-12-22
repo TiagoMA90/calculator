@@ -1,7 +1,5 @@
 # Calculator
-The 'Clock' website is live clock that documents the Time(/Hours/Minutes/Seconds/Miliseconds) & Date(Day(Month/Year)).
-
-Visitors of this website will find the time in the works
+The 'Caculator' is a calculator website that allows users to perform the basic operations (sum, subtract, times and divide)
 
 # Live Project
 The live version can be found [here](https://tiagoma90.github.io/calculator/)

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap');
+
 /* Body */
 body {
     margin: 0;
@@ -34,6 +36,7 @@ body {
 }
 
 input {
+    font-family: 'Bai Jamjuree', sans-serif;
     text-align: right;
     padding: 0 12.5px 0 12.5px;
     font-size: 50px;
@@ -48,14 +51,10 @@ input {
     padding: 25px;
 }
 
-.clears {
-    grid-column: span 4;
-    padding: 25px;
-    width: calc(100%);
-}
-
 /* Buttons */
 button {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 100%;;
     width: 75px;
     height: 75px;
     border-radius: 5px;
@@ -76,7 +75,6 @@ button:active {
     background-color: #696969;
     box-shadow: 0px 5px 15px 0px #000000, inset 0px 5px 15px 0px #000000;
 }
-
 
 .operators {
     background-color: #505200;
@@ -104,6 +102,8 @@ button:active {
 
 .equals {
     background-color: #006100;
+    grid-column: span 4;
+    width: calc(100%);
 }
 
 .equals:hover {
@@ -124,4 +124,9 @@ button:active {
 
 .clears:active {
     background-color: #960000;
+}
+
+.author {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #666666;
 }
